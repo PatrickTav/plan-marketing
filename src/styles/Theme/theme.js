@@ -3,7 +3,9 @@ export default {
     primary: '#1E1E1E',
     hover: '#696969',
     fontPrimary: '#f8f9fa',
-    fontSecondary:'#939598'
+    fontSecondary:'#939598',
+    colorCard:'#292929',
+    bgCard:'#939598'
   },
 
   fontFamily: {
