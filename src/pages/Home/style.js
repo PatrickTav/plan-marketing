@@ -10,5 +10,6 @@ export const Container = styled.main`
 export const Section = styled.section`
   margin: auto;
   width: 1240px;
+  height: 100vh;
   padding-left: 200px;
 `

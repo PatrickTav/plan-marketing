@@ -1,5 +1,5 @@
 import { Navbar } from '../../components'
-import { About } from '../../pages'
+import { About, News } from '../../pages'
 
 import { Container, Section } from './style'
 
@@ -10,6 +10,10 @@ const Home = () => {
       <Section>
         <About />
       </Section>
+      <Section>
+        <News/>
+      </Section>
+      
     </Container>
   )
 }
