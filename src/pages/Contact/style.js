@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const Container_section = styled.div`
-  margin-top: 200px;
+  margin-top: 120px;
   display: flex;
   position: relative;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 70px;
   & {
     .form-container {
@@ -28,7 +28,7 @@ export const Container_section = styled.div`
       form {
         display: flex;
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 80px;
         gap: 10px;
       }
 
@@ -111,4 +111,7 @@ export const Container_section = styled.div`
       }
     }
   }
+
+  
 `
+

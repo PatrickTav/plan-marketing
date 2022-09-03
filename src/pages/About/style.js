@@ -13,11 +13,11 @@ export const Container_section = styled.div`
       color: ${(props) => props.theme.colors.fontSecondary};
     }
     .text-content .description,
-    .text-content .back + p{
+    .text-content .back + p {
       color: ${(props) => props.theme.colors.fontPrimary};
     }
 
-    .text-content p{
+    .text-content p {
       padding-top: 10px;
     }
     .card_container {
@@ -26,9 +26,8 @@ export const Container_section = styled.div`
     }
     .text-content .sinopse,
     .text-content .back + p,
-    .text-content .description{
-      font-size: .9rem;
-
+    .text-content .description {
+      font-size: 0.9rem;
     }
     .card_container div {
       max-width: 197px;
@@ -38,23 +37,22 @@ export const Container_section = styled.div`
       margin-top: 20px;
     }
     .card_container img {
-      width: 125px;
+      width: 100%;
     }
-    .card_content p{
-      font-size: .8rem;
+    .card_content p {
+      font-size: 0.8rem;
       font-weight: 400;
       color: ${(props) => props.theme.colors.fontSecondary};
     }
-    .plus p{
+    .plus p {
       font-size: 1.1rem;
       color: ${(props) => props.theme.colors.fontSecondary};
-
     }
-    .plus img{
+    .plus img {
       width: 60px;
       padding-top: 60px;
     }
-    .text-content .back{
+    .text-content .back {
       position: absolute;
       font-weight: 700;
       font-size: 5.2rem;
@@ -63,4 +61,6 @@ export const Container_section = styled.div`
       z-index: -1;
     }
   }
+
+ 
 `

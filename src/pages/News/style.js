@@ -4,7 +4,7 @@ export const Container_section = styled.div`
   margin-top: 150px;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 30px;
   position: relative;
 
@@ -20,7 +20,7 @@ export const Container_section = styled.div`
     .container_cards {
       display: grid;
       grid-template-columns: repeat(5, 200px);
-      gap: 30px;
+      gap: 10px;
     }
     .back{
       position: absolute;
@@ -46,4 +46,6 @@ export const Container_section = styled.div`
     }
 
   } 
+
 `
+

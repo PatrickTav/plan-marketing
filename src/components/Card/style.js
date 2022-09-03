@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Cards = styled.div`
   height: 400px;
   background-color: ${(props) => props.theme.colors.colorCard};
-  width: 210px;
+  width: 200px;
   transition: all .5s;
    cursor: pointer;
   
@@ -50,4 +50,6 @@ export const Cards = styled.div`
     }
    
   }
+
+  
 `
