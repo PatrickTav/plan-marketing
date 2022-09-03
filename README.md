@@ -1,5 +1,5 @@
 
-# Teste plan 
+# Teste plan  Marketing
 ## Começando
 
 Primeiro, para baixar:
@@ -28,4 +28,4 @@ Todos os componentes e paginas estão sendo usados no arquivo `"Home.jsx"` estã
 ## Tecnologias
 * Reactjs
 * React router
-* Styled component
+* Styled component 
