@@ -3,10 +3,14 @@ import styled from 'styled-components'
 export const Container_section = styled.div`
   margin-top: 250px;
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
   gap: 30px;
+  position: relative;
 
   & {
+  .text-content{
+  
+  }
     .text-content h2,
     .text-content p {
       font-weight: 400;
@@ -18,7 +22,7 @@ export const Container_section = styled.div`
     }
 
     .text-content p {
-      padding-top: 10px;
+      padding-top: 1rem;
     }
     .card_container {
       display: flex;
@@ -57,10 +61,21 @@ export const Container_section = styled.div`
       font-weight: 700;
       font-size: 5.2rem;
       color: #272727;
-      top: 230px;
+      top: -20px;
       z-index: -1;
     }
   }
 
+
+
+  @media (max-width:1300px) {
+    flex-direction: column;
+    margin-top: 50px;
+
+    .card_container{
+      justify-content: center;
+      display: flex;
+    }
+  }
  
 `

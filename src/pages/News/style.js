@@ -21,6 +21,7 @@ export const Container_section = styled.div`
       display: grid;
       grid-template-columns: repeat(5, 200px);
       gap: 10px;
+      justify-content: space-around;
     }
     .back{
       position: absolute;
@@ -47,5 +48,14 @@ export const Container_section = styled.div`
 
   } 
 
+  @media (max-width:1200px) {
+    flex-direction: column;
+    margin-top: 50px;
+
+    .container_cards{
+      display: flex;
+      
+    }
+  }
 `
 

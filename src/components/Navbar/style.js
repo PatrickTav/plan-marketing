@@ -61,7 +61,7 @@ export const SideBar = styled.nav`
       text-align: end;
     }
   }
-  @media (max-width:1400px) {
+  @media (max-width:1350px) {
     display: none;
   }
 

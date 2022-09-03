@@ -4,7 +4,7 @@ export const Container_section = styled.div`
   margin-top: 120px;
   display: flex;
   position: relative;
-  /* flex-wrap: wrap; */
+  flex-wrap: nowrap;
   gap: 70px;
   & {
     .form-container {
