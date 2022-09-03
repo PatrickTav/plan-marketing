@@ -1,21 +1,23 @@
 import { Navbar } from '../../components'
-import { About, News } from '../../pages'
+import { About, News, Contact } from '../../pages'
 
 import { Container, Section } from './style'
 
 const Home = () => {
-  return (
-    <Container>
-      <Navbar />
-      <Section>
-        <About />
-      </Section>
-      <Section>
-        <News/>
-      </Section>
-      
-    </Container>
-  )
+    return (
+        <Container>
+            <Navbar />
+            <Section>
+                <About />
+            </Section>
+            <Section>
+                <News />
+            </Section>
+            <Section>
+                <Contact />
+            </Section>
+        </Container>
+    )
 }
 
 export default Home
