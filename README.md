@@ -12,6 +12,12 @@ entre na pasta plan-marketing:
 ```bash
 cd plan-marketing
 ```
+Para instalar todas as dependências:
+```bash
+npm install
+```
+
+
 para rodar a aplicação:
 ```bash
 npm run dev
