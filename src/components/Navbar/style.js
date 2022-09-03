@@ -8,6 +8,7 @@ export const SideBar = styled.nav`
   padding-left: 20px;
   border-right: 3px solid #292929;
 
+
   & {
     .container_nav {
       display: flex;
@@ -22,6 +23,12 @@ export const SideBar = styled.nav`
     .list_links a{
       text-decoration: none;
     }
+    .list_links span{
+      transition: all .4s;
+    }
+    .list_links span:hover{
+      color: ${(props) => props.theme.colors.hover};
+    }
     .container_nav .back {
       position: absolute;
       font-weight: 700;
@@ -29,6 +36,7 @@ export const SideBar = styled.nav`
       color: #272727;
       bottom: -20px;
       z-index: -1;
+      
     }
     .container_nav a {
       position: relative;
@@ -49,5 +57,13 @@ export const SideBar = styled.nav`
       font-size: 1.2rem;
       
     }
+    .container_nav-plus img{
+      text-align: end;
+    }
+  }
+
+
+  @media (max-width:1400px) {
+    display: none;
   }
 `

@@ -4,8 +4,8 @@ export const Container_section = styled.div`
   margin-top: 200px;
   display: flex;
   position: relative;
-  flex-wrap: nowrap;
-  gap: 5px;
+  flex-wrap: wrap;
+  gap: 70px;
   & {
     .form-container {
       display: flex;
@@ -63,6 +63,52 @@ export const Container_section = styled.div`
     }
 
     .partnership_adress {
+      display: grid;
+      gap:20px;
+      grid-template-columns: repeat(3, 150px);
+
+      &{
+
+        .icons{
+          display: flex;
+          justify-content: space-between;
+          img{
+            width: 40px;
+          }
+        }
+        .card{
+          cursor: pointer;
+        }
+        .card > img{
+          height: 50px;
+        }
+        h3, button{
+          font-weight: 400;
+          color:  ${(props) => props.theme.colors.fontSecondary};
+        }
+       
+        p{
+          padding-top: 5px;
+          font-size: .7rem;
+          font-weight: 300;
+          height:90px;
+        }
+        
+        button{
+          font-size: .7rem;
+          background-color: transparent;
+          border: none;
+          transition: .5s;
+          cursor: pointer;
+        }
+        button img{
+          padding-left: 5px;
+        }
+        button:hover{
+          color: ${(props) => props.theme.colors.hover};
+        }
+
+      }
     }
   }
 `

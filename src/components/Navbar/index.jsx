@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { SideBar } from '../Navbar/style'
 import Logo from "../../assets/logo.png"
+
 const Navbar = () => {
   return (
     <> 
@@ -35,7 +36,8 @@ const Navbar = () => {
             <div className="container_nav-plus">
               <Link to="/">
                 <span className="back">;)</span>
-                <span>Que tal inovar com a gente?</span>
+                <span>Que tal inovar com a gente? </span>
+                
               </Link>
             </div>
           </div>
