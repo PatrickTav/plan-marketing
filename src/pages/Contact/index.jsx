@@ -58,7 +58,7 @@ const Contact = () => {
             Fique sempre por dentro de todas as novidades da Plan XP e de todas
             empresas do Grupo Plan Marketing.
           </p>
-          <div className='icons'>
+          <div className="icons">
             <img src={Face} alt="facebook.png" />
             <img src={Insta} alt="instagram.png" />
             <img src={Ytube} alt="youtube.png" />
@@ -72,7 +72,8 @@ const Contact = () => {
             /RS
           </h3>
           <p>
-            Rua Onze de Junho, 243 <br /> Novo Hamburgo / RS <br /> Brasil <br /> +55 51 98229.0400
+            Rua Onze de Junho, 243 <br /> Novo Hamburgo / RS <br /> Brasil{' '}
+            <br /> +55 51 98229.0400
           </p>
           <button>
             VER NO GOOGLE MAPS
@@ -87,10 +88,11 @@ const Contact = () => {
             /SP
           </h3>
           <p>
-            Rua Ibijaú, 355/Sala 1309 <br /> São Paulo / SP <br /> Brasil  <br />+55 11 98871.8556
+            Rua Ibijaú, 355/Sala 1309 <br /> São Paulo / SP <br /> Brasil <br />
+            +55 11 98871.8556
           </p>
           <button>
-          VER NO GOOGLE MAPS
+            VER NO GOOGLE MAPS
             <img src={Arrow} alt="arrow.png" />
           </button>
         </div>

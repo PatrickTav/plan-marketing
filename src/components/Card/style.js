@@ -4,11 +4,11 @@ export const Cards = styled.div`
   height: 400px;
   background-color: ${(props) => props.theme.colors.colorCard};
   width: 200px;
-  transition: all .5s;
-   cursor: pointer;
-  
-   :hover{
-   background-color: ${(props) => props.theme.colors.primary};
+  transition: all 0.5s;
+  cursor: pointer;
+
+  :hover {
+    background-color: ${(props) => props.theme.colors.primary};
   }
 
   & {
@@ -48,9 +48,5 @@ export const Cards = styled.div`
       text-decoration: none;
       font-size: 0.8rem;
     }
-   
   }
-
-
-   
 `

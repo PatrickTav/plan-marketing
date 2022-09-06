@@ -28,8 +28,8 @@ const About = () => {
       <div className="card_container">
         <div className="card_content">
           <div>
-            <div className='photo'>
-              <img src={Photo1} alt="" />
+            <div className="photo">
+              <img src={Photo1} alt="image_phone.png" />
             </div>
           </div>
           <p>
@@ -39,7 +39,9 @@ const About = () => {
           </p>
         </div>
         <div className="card_content">
-          <img src={Photo2} alt="" />
+          <div className="photo">
+            <img src={Photo2} alt="image_man.png" />
+          </div>
           <p>
             Desenvolvemos games para anunciar seus produtos e serviços, através
             da <span>gamificação</span> (aplicações que utilizam dinâmicas de
@@ -48,7 +50,9 @@ const About = () => {
           </p>
         </div>
         <div className="card_content">
-          <img src={Photo3} alt="" />
+          <div className="photo">
+            <img src={Photo3} alt="image_setup.png" />
+          </div>
           <p>
             Utilizando as últimas tecnologias para a
             <span> criação de games</span>, trabalhamos de acordo com as
@@ -57,7 +61,9 @@ const About = () => {
           </p>
         </div>
         <div className="plus">
-          <img src={Joystick} alt="" />
+          <div className="photo">
+            <img src={Joystick} alt="joystick.png" />
+          </div>
           <p>
             Experimente inovar com a <span>PlanXP</span> para{' '}
             <span>desenvolver os seus jogos digitais!</span>

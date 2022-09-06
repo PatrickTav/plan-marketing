@@ -9,12 +9,12 @@ export const Container_section = styled.div`
   position: relative;
 
   & {
-    .title{
+    .title {
       display: flex;
       align-items: flex-end;
       gap: 20px;
     }
-    .title a{
+    .title a {
       align-self: flex-end;
     }
     .container_cards {
@@ -24,7 +24,7 @@ export const Container_section = styled.div`
       flex-wrap: wrap;
       justify-content: space-around;
     }
-    .back{
+    .back {
       position: absolute;
       font-weight: 700;
       font-size: 5.2rem;
@@ -32,30 +32,29 @@ export const Container_section = styled.div`
       top: -30px;
       z-index: -1;
     }
-    
+
     .section_content h2 {
       font-weight: 400;
     }
-    .section_content a{
-      font-size: .6rem;
+    .section_content a {
+      font-size: 0.6rem;
     }
-    .section_content h2 , a{
+    .section_content h2,
+    a {
       color: ${(props) => props.theme.colors.fontSecondary};
       text-decoration: none;
     }
-    .section_content a{
+    .section_content a {
       display: inline-block;
     }
+  }
 
-  } 
-
-  @media (max-width:1200px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
     margin-top: 200px;
 
-    .container_cards{
+    .container_cards {
       display: flex;
     }
   }
 `
-

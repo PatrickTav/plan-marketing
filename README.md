@@ -35,3 +35,8 @@ Todos os componentes e paginas estão sendo usados no arquivo `"Home.jsx"` estã
 * Reactjs
 * React router
 * Styled component 
+  
+#
+## Adicionais
+* o Header ficou com a posição fixa, pois, quando o navbar é aberto, na rolagem a forma de fechar seria voltando para o topo. Dessa forma os dois andam juntos. 
+* Para a melhor forma de exportação, os componentes e páginas estão agrupados no index da pasta de destino 

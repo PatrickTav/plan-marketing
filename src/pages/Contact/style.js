@@ -31,7 +31,6 @@ export const Container_section = styled.div`
         flex-direction: column;
         margin-top: 80px;
         gap: 10px;
-        
       }
 
       form input,
@@ -41,11 +40,10 @@ export const Container_section = styled.div`
         border: 2px solid ${(props) => props.theme.colors.fontSecondary};
         border-radius: 0 15px 0 0;
       }
-      label{
-        font-size: .9rem;
+      label {
+        font-size: 0.9rem;
       }
       form input {
-        
         padding: 0.4rem;
       }
       form textarea {
@@ -57,7 +55,7 @@ export const Container_section = styled.div`
         border: none;
         text-align: start;
         cursor: pointer;
-        transition: all .4s;
+        transition: all 0.4s;
       }
       form button:hover {
         color: ${(props) => props.theme.colors.hover};
@@ -66,66 +64,62 @@ export const Container_section = styled.div`
 
     .partnership_adress {
       display: grid;
-      gap:20px;
+      gap: 20px;
       flex-wrap: wrap;
       grid-template-columns: repeat(3, 150px);
 
-      &{
-
-        .icons{
+      & {
+        .icons {
           display: flex;
           justify-content: space-between;
-          img{
+          img {
             width: 40px;
           }
         }
-        .card{
+        .card {
           cursor: pointer;
         }
-        .card > img{
+        .card > img {
           height: 50px;
         }
-        h3, button{
+        h3,
+        button {
           font-weight: 400;
-          color:  ${(props) => props.theme.colors.fontSecondary};
-        }
-       
-        p{
-          padding-top: 5px;
-          font-size: .7rem;
-          font-weight: 300;
-          height:90px;
-        }
-        
-        button{
-          font-size: .7rem;
-          background-color: transparent;
-          border: none;
-          transition: .5s;
-          cursor: pointer;
-        }
-        button img{
-          padding-left: 5px;
-        }
-        button:hover{
-          color: ${(props) => props.theme.colors.hover};
+          color: ${(props) => props.theme.colors.fontSecondary};
         }
 
+        p {
+          padding-top: 5px;
+          font-size: 0.7rem;
+          font-weight: 300;
+          height: 90px;
+        }
+
+        button {
+          font-size: 0.7rem;
+          background-color: transparent;
+          border: none;
+          transition: 0.5s;
+          cursor: pointer;
+        }
+        button img {
+          padding-left: 5px;
+        }
+        button:hover {
+          color: ${(props) => props.theme.colors.hover};
+        }
       }
     }
   }
 
-  @media  (max-width:850px) {
+  @media (max-width: 850px) {
     flex-wrap: wrap;
 
-    &{
-      .partnership_adress{
+    & {
+      .partnership_adress {
         margin: auto;
         grid-template-columns: repeat(2, 150px);
       }
     }
   }
-
-  
 `
-

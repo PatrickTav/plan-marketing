@@ -12,18 +12,19 @@ import { Card } from '../../components/'
 
 const News = () => {
   return (
-    <Container_section>
+    <Container_section id='news'>
       <div className="section_content">
-        <span className='back'>03.</span>
+        <span className="back">03.</span>
         <p>/Plan news</p>
-        <div className='title'>
+        <div className="title">
           <h2>/Cases Games</h2>
           <Link to="">
             <p>
-              CLIQUE AQUI PARA VER TODO O BLOG <img src={Arrow} alt="arrow.png" />{' '}
+              CLIQUE AQUI PARA VER TODO O BLOG{' '}
+              <img src={Arrow} alt="arrow.png" />{' '}
             </p>
           </Link>
-        </div> 
+        </div>
       </div>
 
       <div className="container_cards">

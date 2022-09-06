@@ -1,14 +1,20 @@
-import {ContainerHeader} from './style'
+import { useState } from 'react'
+
+import { ContainerHeader } from './style'
 import Logo from '../../assets/logo.png'
 
-const Header = () => {
+
+const Header = ({onclick}) => {
+
+ 
+
   return (
     <ContainerHeader>
-      <div className='logo'>
+      <div className="logo">
         <img src={Logo} alt="logo.png" />
       </div>
 
-      <div className='menu'>
+      <div onClick={onclick} className="menu">
         X
       </div>
     </ContainerHeader>

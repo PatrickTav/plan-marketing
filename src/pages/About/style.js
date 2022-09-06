@@ -7,9 +7,8 @@ export const Container_section = styled.div`
   position: relative;
 
   & {
-  .text-content{
-  
-  }
+    .text-content {
+    }
     .text-content h2,
     .text-content p {
       font-weight: 400;
@@ -34,7 +33,7 @@ export const Container_section = styled.div`
       font-size: 0.9rem;
     }
     .card_container div {
-      max-width: 197px;
+      max-width: 10rem;
     }
     .card_container p {
       font-size: 0.7rem;
@@ -66,30 +65,24 @@ export const Container_section = styled.div`
     }
   }
 
-
-
-  @media (max-width:1300px) {
+  @media (max-width: 1300px) {
     flex-direction: column;
     margin-top: 50px;
 
-    .card_container{
+    .card_container {
       justify-content: center;
       display: flex;
     }
   }
-  @media (max-width:880px) {
-    .card_container{
+  @media (max-width: 880px) {
+    .card_container {
       flex-wrap: wrap;
     }
   }
 
-
-  @media  (max-width:425px) {
-   
-
-    .card_container p{
-      font-size: .8rem;
+  @media (max-width: 425px) {
+    .card_container p {
+      font-size: 0.8rem;
     }
   }
- 
 `

@@ -21,7 +21,7 @@ const Navbar = () => {
               <span className="back">02.</span>
               <span>/O QUE FAZEMOS</span>
             </Link>
-            <Link to="/#news">
+            <Link to="/">
               <span className="back">03.</span>
               <span>/PLAN NEWS</span>
             </Link>
