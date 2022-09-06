@@ -6,7 +6,7 @@ export const ContainerSidebar = styled.aside`
 
   @media (max-width: 1350px) {
     display: flex;
-    width: 275px;
+    width: 19rem;
     height: 100%;
     padding-top: 150px;
     position: fixed;
