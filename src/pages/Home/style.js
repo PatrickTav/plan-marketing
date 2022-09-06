@@ -9,7 +9,7 @@ export const Container = styled.main`
 
 export const Section = styled.section`
   margin: auto;
-  width: 1240px;
+ max-width: 1240px;
   height: 100%;
   padding-left: 250px;
   

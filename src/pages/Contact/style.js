@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container_section = styled.div`
-  margin-top: 120px;
+  margin: 250px 0 150px;
   display: flex;
   position: relative;
   flex-wrap: nowrap;
@@ -10,6 +10,7 @@ export const Container_section = styled.div`
     .form-container {
       display: flex;
       flex-direction: column;
+      width: 100%;
 
       h2 {
         font-weight: 400;
@@ -30,6 +31,7 @@ export const Container_section = styled.div`
         flex-direction: column;
         margin-top: 80px;
         gap: 10px;
+        
       }
 
       form input,
@@ -65,6 +67,7 @@ export const Container_section = styled.div`
     .partnership_adress {
       display: grid;
       gap:20px;
+      flex-wrap: wrap;
       grid-template-columns: repeat(3, 150px);
 
       &{
@@ -108,6 +111,17 @@ export const Container_section = styled.div`
           color: ${(props) => props.theme.colors.hover};
         }
 
+      }
+    }
+  }
+
+  @media  (max-width:850px) {
+    flex-wrap: wrap;
+
+    &{
+      .partnership_adress{
+        margin: auto;
+        grid-template-columns: repeat(2, 150px);
       }
     }
   }

@@ -1,4 +1,4 @@
-import { Navbar } from '../../components'
+import { Navbar, Header } from '../../components'
 import { About, News, Contact } from '../../pages'
 
 import { Container, Section } from './style'
@@ -6,6 +6,7 @@ import { Container, Section } from './style'
 const Home = () => {
     return (
         <Container>
+            <Header/>
             <Navbar />
             <Section>
                 <About />

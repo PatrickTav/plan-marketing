@@ -21,6 +21,7 @@ export const Container_section = styled.div`
       display: grid;
       grid-template-columns: repeat(5, 200px);
       gap: 10px;
+      flex-wrap: wrap;
       justify-content: space-around;
     }
     .back{
@@ -50,11 +51,10 @@ export const Container_section = styled.div`
 
   @media (max-width:1200px) {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 200px;
 
     .container_cards{
       display: flex;
-      
     }
   }
 `

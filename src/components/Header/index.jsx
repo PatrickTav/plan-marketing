@@ -1,8 +1,17 @@
-import React from 'react'
+import {ContainerHeader} from './style'
+import Logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <ContainerHeader>
+      <div className='logo'>
+        <img src={Logo} alt="logo.png" />
+      </div>
+
+      <div className='menu'>
+        X
+      </div>
+    </ContainerHeader>
   )
 }
 

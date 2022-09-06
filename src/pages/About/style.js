@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container_section = styled.div`
   margin-top: 250px;
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 30px;
   position: relative;
 
@@ -26,6 +25,7 @@ export const Container_section = styled.div`
     }
     .card_container {
       display: flex;
+      /* flex-wrap: wrap; */
       gap: 20px;
     }
     .text-content .sinopse,
@@ -75,6 +75,20 @@ export const Container_section = styled.div`
     .card_container{
       justify-content: center;
       display: flex;
+    }
+  }
+  @media (max-width:880px) {
+    .card_container{
+      flex-wrap: wrap;
+    }
+  }
+
+
+  @media  (max-width:425px) {
+   
+
+    .card_container p{
+      font-size: .8rem;
     }
   }
  
